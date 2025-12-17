@@ -20,9 +20,9 @@ def load_model():
 model, poly = load_model()
 
 # 2️⃣ User input
-tv = st.number_input("TV Advertising Spend ($)", min_value=0.0, value=100.0, step=10.0)
-radio = st.number_input("Radio Advertising Spend ($)", min_value=0.0, value=50.0, step=5.0)
-newspaper = st.number_input("Newspaper Advertising Spend ($)", min_value=0.0, value=20.0, step=5.0)
+tv = st.number_input("TV Advertising Spend ($)", min_value=0.0, value=500.0, step=10.0)
+radio = st.number_input("Radio Advertising Spend ($)", min_value=0.0, value=250.0, step=5.0)
+newspaper = st.number_input("Newspaper Advertising Spend ($)", min_value=0.0, value=100.0, step=5.0)
 
 if st.button("Predict Sales"):
     # 3️⃣ Prepare input
